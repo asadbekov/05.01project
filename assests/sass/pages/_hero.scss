@@ -1,0 +1,373 @@
+.hero {
+  .hero_link {
+    display: flex;
+    padding: 20px 251px;
+    align-items: center;
+    a {
+      color: var(--primary-black, #292929);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .hero_link_a {
+      color: var(--primary-orange, #fd9339);
+      font-family: Circe Rounded;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.14px;
+    }
+  }
+  ///////////////////////////////////
+  .hero_bottom {
+    display: flex;
+    gap: 30px;
+  }
+  .hero_sidebarMenu {
+    padding-top: 20px;
+    padding-left: 251px;
+    .img_topA{
+      background: none;
+    }
+    .siedMenu_top {
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      .siedMenu_top_div {
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        border-radius: 6px 6px 0px 0px;
+        background-color: #fbe8bb;
+        
+        .img_top_div{
+          background: none;
+        }
+      
+        a {
+          padding-left: 8px;
+          color: var(--primary-brown, #4e2d2d);
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 22px;
+          background: none;
+        }
+      }
+      .siedMenu_top_a {
+        padding: 12px 16px;
+        border: 1px solid #e6e6e6;
+        background: var(--primary-white, #fff);
+        @include d-flex;
+        a {
+          color: var(--primary-black, #292929);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          background: none;
+        }
+      }
+      .siedMenu_top_a:hover {
+        background-color: #fbe8bb;
+      }
+      .siedMenu_top_aa {
+        border-radius: 0px 0px 6px 6px;
+        
+      }
+    }
+  }
+  //   ---------------------------------------------------
+  .siedMenu_bottom {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    .siedMenu_top_div {
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      border-radius: 6px 6px 0px 0px;
+      background-color: #fbe8bb;
+      a {
+        padding-left: 8px;
+        color: var(--primary-brown, #4e2d2d);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        background: none;
+      }
+    }
+    .siedMenu_top_a {
+      padding: 12px 16px;
+      border: 1px solid #e6e6e6;
+      background: var(--primary-white, #fff);
+      @include d-flex;
+      a {
+        color: var(--primary-black, #292929);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        background: none;
+      }
+    }
+    .siedMenu_top_a:hover {
+      background-color: #fbe8bb;
+    }
+    .siedMenu_top_aa {
+      border-radius: 0px 0px 6px 6px;
+    }
+  }
+  ////////////////////////////////////////
+  .card_six{
+    margin-bottom: 15px;
+  }
+  .Card_three{
+    display: flex;
+    gap: 15px;
+  }
+  .hero_siri {
+    padding-bottom: 30px;
+    .one_siri{
+      background-image: url(/assests/images/tver.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 120px 0px 16px;
+         background: none;
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+
+        }
+      }
+    }
+    .two_siri{
+      background-image: url(/assests/images/tver.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 120px 0px 16px;
+         background: none;
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+
+        }
+      }
+    }
+    .three_siri{
+      background-image: url(/assests/images/polut.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 60px 0px 16px;
+         background: none;
+
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+
+        }
+      }
+    }
+    .four_siri{
+      background-image: url(/assests/images/pasta.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 120px 0px 16px;
+         background: none;
+
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+
+        }
+      }
+    }
+    .five_siri{
+      background-image: url(/assests/images/kislo.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 40px 0px 16px;
+         background: none;
+
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+
+        }
+      }
+    }
+    .six_siri{
+      background-image: url(/assests/images/rassol.png);
+      width: 280px;
+      height: 140px;
+      margin-top: 15px;
+      h1{
+        color: var(--primary-white, #FFF);
+        font-family: Circe Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+         padding: 84px 100px 0px 16px;
+         background: none;
+
+      }
+      .link_a{
+        display: flex;
+        background: none;
+
+        a{
+          color: var(--primary-orange, #FD9339);
+          font-family: Circe Rounded;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; 
+          padding: 0px 2px 0px 16px;
+         background: none;
+
+        }
+        img{
+          padding-top: 5px;
+         background: none;
+          
+        }
+      }
+    }
+  }
+    h1 {
+      color: var(--primary-brown, #4E2D2D);
+      font-family: Circe Rounded;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 40px; 
+      letter-spacing: 0.28px;
+    }
+    .line_span{
+      opacity: 0.1;
+      color: #808080;
+      width: 870px;
+      height: 1px;
+    }
+  }
